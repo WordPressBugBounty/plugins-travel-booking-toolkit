@@ -22,7 +22,7 @@
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
  * Text Domain:       travel-booking-toolkit
  * Domain Path:       /languages
- * Tested up to:      6.6
+ * Tested up to:      6.7
  * Requires at least: 5.0
  *
  * WTE Tested up to: 5.7
