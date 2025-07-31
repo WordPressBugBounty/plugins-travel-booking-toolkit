@@ -15,14 +15,14 @@
  * Plugin Name:       Travel Booking Toolkit
  * Plugin URI:        https://wordpress.org/plugins/travel-booking-toolkit/
  * Description:       Travel Booking Toolkit allows you to add extra functionality to the Customizer, Widgets Section in your WordPress admin area.
- * Version:           1.2.4
+ * Version:           1.2.5
  * Author:            wptravelengine
  * Author URI:        https://wptravelengine.com
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
  * Text Domain:       travel-booking-toolkit
  * Domain Path:       /languages
- * Tested up to:      6.7
+ * Tested up to:      6.8.2
  * Requires at least: 5.0
  *
  * WTE Tested up to: 5.7
@@ -39,7 +39,7 @@ if ( ! defined( 'WPINC' ) ) {
  * Start at version 1.0.0 and use SemVer - https://semver.org
  * Rename this for your plugin and update it as you release new versions.
  */
-define( 'TBT_VERSION', '1.2.4' );
+define( 'TBT_VERSION', '1.2.5' );
 define( 'TBT_BASE_PATH', dirname( __FILE__ ) );
 define( 'TBT_PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
 define( 'TBT_FILE_URL', rtrim( plugin_dir_url( __FILE__ ), '/' ) );

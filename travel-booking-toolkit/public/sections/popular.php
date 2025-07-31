@@ -156,7 +156,7 @@ if ( $title || $content || $obj->travel_booking_toolkit_is_wpte_activated() ) { 
 														'nights' => array( __( 'Night', 'travel-booking-toolkit' ), __( 'Nights', 'travel-booking-toolkit' ) ),
 														'hours'  => array( __( 'Hour', 'travel-booking-toolkit' ), __( 'Hours', 'travel-booking-toolkit' ) ),
 													);
-													if ( isset( $meta['trip_duration_unit'] ) && ( 'days' == $meta['trip_duration_unit'] ) || ( 'hours' == $meta['trip_duration_unit'] ) ) {
+													if ( isset( $meta['trip_duration_unit'] ) && ( 'days' == $meta['trip_duration_unit'] || 'hours' == $meta['trip_duration_unit'] ) ) {
 														printf(
 															esc_html(
 																_nx( '%1$d %2$s', '%1$d %3$s', (int) $meta['trip_duration'], 'trip duration', 'travel-booking-toolkit' )
@@ -166,7 +166,7 @@ if ( $title || $content || $obj->travel_booking_toolkit_is_wpte_activated() ) { 
 															$duration_unit_mapping[ $meta['trip_duration_unit'] ][1]
 														);
 													}
-													if ( 'days' == $meta['trip_duration_unit'] && isset( $meta['trip_duration_nights'] ) && '' != $meta['trip_duration_nights'] ) {
+													if ( isset( $meta['trip_duration_unit'] ) && 'days' == $meta['trip_duration_unit'] && isset( $meta['trip_duration_nights'] ) && '' != $meta['trip_duration_nights'] ) {
 														printf( _nx( ' - %1$d Night', ' - %1$d Nights', $meta['trip_duration_nights'], 'trip duration night', 'travel-booking-toolkit' ), $meta['trip_duration_nights'] );
 													}
 													echo '</span>';
