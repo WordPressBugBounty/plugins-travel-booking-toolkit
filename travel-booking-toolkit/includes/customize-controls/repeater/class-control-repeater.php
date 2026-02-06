@@ -209,8 +209,8 @@ if( ! class_exists( 'Travel_Booking_Toolkit_Control_Repeater' ) ) {
                             wp_enqueue_script( 'wp-color-picker' );
                             wp_enqueue_style( 'wp-color-picker' );
     					}elseif( 'font' === $field['type'] ){
-                            wp_enqueue_script( 'all', TBT_FILE_URL . '/public/js/fontawesome/all.min.js', array( 'jquery' ), '5.6.3', true );
-                            wp_enqueue_script( 'v4-shims', TBT_FILE_URL . '/public/js/fontawesome/v4-shims.min.js', array( 'jquery', 'all' ), '5.6.3', true );
+                            wp_enqueue_script( 'all', TBT_FILE_URL . '/public/js/fontawesome/all.min.js', array( 'jquery' ), '6.4.2', true );
+                            wp_enqueue_script( 'v4-shims', TBT_FILE_URL . '/public/js/fontawesome/v4-shims.min.js', array( 'jquery', 'all' ), '6.4.2', true );
     					}
     				}
     			}

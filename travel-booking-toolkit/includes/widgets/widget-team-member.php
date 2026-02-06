@@ -78,7 +78,7 @@ class Travel_Booking_Toolkit_Team_Member_Widget extends WP_Widget {
                     </div>
                     <ul class="social-profile">
                         <?php if( isset( $linkedin ) && $linkedin!='' ) { echo '<li><a target="_blank" href="'.esc_url($linkedin).'"><i class="fa fa-linkedin"></i></a></li>'; }?>
-                        <?php if( isset( $twitter ) && $twitter!='' ) { echo '<li><a target="_blank" href="'.esc_url($twitter).'"><i class="fa fa-twitter"></i></a></li>'; }?>
+                        <?php if( isset( $twitter ) && $twitter!='' ) { echo '<li><a target="_blank" href="'.esc_url($twitter).'"><i class="fa fa-x-twitter"></i></a></li>'; }?>
                         <?php if( isset( $facebook ) && $facebook!='' ) { echo '<li><a target="_blank" href="'.esc_url($facebook).'"><i class="fa fa-facebook"></i></a></li>'; }?>
                         <?php if( isset( $instagram ) && $instagram!='' ) { echo '<li><a target="_blank" href="'.esc_url($instagram).'"><i class="fa fa-instagram"></i></a></li>'; }?>
                         <?php if( isset( $youtube ) && $youtube!='' ) { echo '<li><a target="_blank" href="'.esc_url($youtube).'"><i class="fa fa-youtube"></i></a></li>'; }?>
@@ -108,7 +108,7 @@ class Travel_Booking_Toolkit_Team_Member_Widget extends WP_Widget {
                     </div>
                     <ul class="social-profile">
                         <?php if( isset( $linkedin ) && $linkedin!='' ) { echo '<li><a target="_blank" href="'.esc_url($linkedin).'"><i class="fa fa-linkedin"></i></a></li>'; }?>
-                        <?php if( isset( $twitter ) && $twitter!='' ) { echo '<li><a target="_blank" href="'.esc_url($twitter).'"><i class="fa fa-twitter"></i></a></li>'; }?>
+                        <?php if( isset( $twitter ) && $twitter!='' ) { echo '<li><a target="_blank" href="'.esc_url($twitter).'"><i class="fa fa-x-twitter"></i></a></li>'; }?>
                         <?php if( isset( $facebook ) && $facebook!='' ) { echo '<li><a target="_blank" href="'.esc_url($facebook).'"><i class="fa fa-facebook"></i></a></li>'; }?>
                         <?php if( isset( $instagram ) && $instagram!='' ) { echo '<li><a target="_blank" href="'.esc_url($instagram).'"><i class="fa fa-instagram"></i></a></li>'; }?>
                         <?php if( isset( $youtube ) && $youtube!='' ) { echo '<li><a target="_blank" href="'.esc_url($youtube).'"><i class="fa fa-youtube"></i></a></li>'; }?>

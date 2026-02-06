@@ -1355,8 +1355,8 @@ function travel_booking_toolkit_get_fontawesome_list(){
         'fab fa-tumblr-square',
         'fas fa-tv',
         'fab fa-twitch',
-        'fab fa-twitter',
-        'fab fa-twitter-square',
+        'fab fa-x-twitter',
+        'fab fa-square-x-twitter',
         'fab fa-typo3',
         'fab fa-uber',
         'fab fa-ubuntu',//150

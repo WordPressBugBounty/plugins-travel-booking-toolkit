@@ -2,25 +2,27 @@
  * All of the CSS for your public-facing functionality should be
  * included in this file.
  */
- .black-white{
-    -webkit-filter:grayscale(100%);
-    -moz-filter:grayscale(100%);
-    filter:grayscale(100%);
-    -webkit-transition:ease .2s;
-    -moz-transition:ease .2s;
-    transition:ease .2s;
+.black-white {
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-transition: ease .2s;
+    -moz-transition: ease .2s;
+    transition: ease .2s;
 }
-.black-white:hover{
-    -webkit-filter:grayscale(0);
-    -moz-filter:grayscale(0);
-    filter:grayscale(0);
+
+.black-white:hover {
+    -webkit-filter: grayscale(0);
+    -moz-filter: grayscale(0);
+    filter: grayscale(0);
 }
 
 
 /*New Styles*/
-.home .toolkit-trip .grid .col{
+.home .toolkit-trip .grid .col {
     position: relative;
 }
+
 .home .toolkit-trip .grid .col .img-holder .discount-amount,
 .home .deals-section .grid .col .text-holder .discount-amount {
     background: #f6dc05;
@@ -38,13 +40,15 @@
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
 }
+
 .home .toolkit-trip .grid .col .img-holder .discount-amount span,
-.home .deals-section .grid .col .text-holder .discount-amount span{
+.home .deals-section .grid .col .text-holder .discount-amount span {
     font-size: 14px;
     font-weight: 400;
 }
+
 .home .toolkit-trip .grid .col .img-holder .category-feat-ribbon,
-.home .deals-section .grid .col .text-holder .category-feat-ribbon{
+.home .deals-section .grid .col .text-holder .category-feat-ribbon {
     background: #F39C12;
     font-size: 15px;
     color: #FFF;
@@ -65,14 +69,14 @@
     transform: rotate(45deg);
 }
 
-.home .toolkit-trip .grid .col .img-holder .discount-amount + .category-feat-ribbon,
-.home .deals-section .grid .col .text-holder .discount-amount + .category-feat-ribbon{
+.home .toolkit-trip .grid .col .img-holder .discount-amount+.category-feat-ribbon,
+.home .deals-section .grid .col .text-holder .discount-amount+.category-feat-ribbon {
     top: 35px;
     right: -47px;
 }
 
 .home .toolkit-trip .grid .col .group-discount,
-.home .deals-section .grid .col .group-discount{
+.home .deals-section .grid .col .group-discount {
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
@@ -129,7 +133,8 @@
     -ms-transition: all ease 0.3s;
     transition: all ease 0.3s;
 }
-.home .deals-section .grid .col .group-discount .tooltip{
+
+.home .deals-section .grid .col .group-discount .tooltip {
     width: max-content;
     bottom: auto;
 }
@@ -178,26 +183,31 @@
 .home .deals-section .grid .col .text-holder .trip-info .star-holder {
     margin: 0 0 10px;
 }
+
 .home .toolkit-trip .grid .col .text-holder .trip-info .star-holder .review-wrap,
-.home .deals-section .grid .col .text-holder .trip-info .star-holder .review-wrap{
+.home .deals-section .grid .col .text-holder .trip-info .star-holder .review-wrap {
     margin: 0;
     padding: 0;
     border: 0;
     border-radius: 0;
 }
+
 .home .toolkit-trip .grid .col .text-holder .trip-info .star-holder .review-wrap .average-rating,
-.home .deals-section .grid .col .text-holder .trip-info .star-holder .review-wrap .average-rating{
+.home .deals-section .grid .col .text-holder .trip-info .star-holder .review-wrap .average-rating {
     padding: 0;
     margin: 0;
     border-bottom: 0;
 }
-.home .toolkit-trip .grid .col .text-holder .trip-info .category-trip-desc{
+
+.home .toolkit-trip .grid .col .text-holder .trip-info .category-trip-desc {
     font-size: 18px;
     line-height: 1.889em;
 }
-.home .toolkit-trip .grid .col .text-holder .trip-info .category-trip-desc p{
+
+.home .toolkit-trip .grid .col .text-holder .trip-info .category-trip-desc p {
     margin: 15px 0 5px;
 }
+
 .home .toolkit-trip .grid .col .text-holder .trip-info .title {
     font-size: 20px;
     line-height: 1.3em;
@@ -223,8 +233,9 @@
     display: block;
     margin: 15px 0 5px;
 }
+
 .home .deals-section .grid .col .text-holder .trip-info .meta-info .place a,
-.home .toolkit-trip .grid .col .text-holder .trip-info .meta-info a{
+.home .toolkit-trip .grid .col .text-holder .trip-info .meta-info a {
     color: #6e6e6e;
     -webkit-transition: all ease 0.3s;
     -moz-transition: all ease 0.3s;
@@ -232,12 +243,14 @@
     -o-transition: all ease 0.3s;
     transition: all ease 0.3s;
 }
+
 .home .deals-section .grid .col .text-holder .trip-info .meta-info .place a:hover,
-.home .toolkit-trip .grid .col .text-holder .trip-info .meta-info a:hover{
+.home .toolkit-trip .grid .col .text-holder .trip-info .meta-info a:hover {
     color: #5c7cfb;
     text-decoration: none;
 }
-.home .deals-section .grid .col .text-holder .trip-info .meta-info{
+
+.home .deals-section .grid .col .text-holder .trip-info .meta-info {
     font-size: 13px;
 }
 
@@ -249,35 +262,40 @@
 .home .toolkit-trip .grid .col .text-holder .trip-info .meta-info .place {
     margin-right: 20px;
 }
+
 .home .deals-section .grid .col .text-holder .trip-info .meta-info .place {
     margin-right: 13px;
 }
 
 .home .toolkit-trip .grid .col .text-holder .trip-info .meta-info svg,
-.home .deals-section .grid .col .text-holder .trip-info .meta-info svg{
-    fill: rgba(35,35,35, 0.6);
+.home .deals-section .grid .col .text-holder .trip-info .meta-info svg {
+    fill: rgba(35, 35, 35, 0.6);
     vertical-align: top;
     margin-top: 8px;
     margin-right: 6px;
 }
+
 .home .toolkit-trip .grid .col .text-holder .trip-info .meta-info .time svg,
-.home .deals-section .grid .col .text-holder .trip-info .meta-info .time svg{
+.home .deals-section .grid .col .text-holder .trip-info .meta-info .time svg {
     margin: 8px 6px 0 0;
 }
+
 .home .toolkit-trip .grid .col .text-holder .next-trip-info .next-departure-list li .left svg,
-.home .deals-section .grid .col .text-holder .next-trip-info .next-departure-list li .left svg{
+.home .deals-section .grid .col .text-holder .next-trip-info .next-departure-list li .left svg {
     fill: #5c7cfb;
     width: 14px;
     height: 14px;
 }
+
 .home .toolkit-trip .grid .col .jq-ry-container>.jq-ry-group-wrapper>.jq-ry-group>svg,
-.home .deals-section .grid .col .jq-ry-container>.jq-ry-group-wrapper>.jq-ry-group>svg{
+.home .deals-section .grid .col .jq-ry-container>.jq-ry-group-wrapper>.jq-ry-group>svg {
     height: 14px;
     width: 14px;
     margin: 0;
 }
+
 .home .toolkit-trip .grid .col .review-wrap .average-rating .aggregate-rating,
-.home .deals-section .grid .col .review-wrap .average-rating .aggregate-rating{
+.home .deals-section .grid .col .review-wrap .average-rating .aggregate-rating {
     font-size: 14px;
     font-weight: 400;
     color: rgba(35, 35, 35, 0.89);
@@ -297,6 +315,7 @@
     top: -17px;
     padding: 0 20px;
 }
+
 .home .toolkit-trip .grid .col .price-holder {
     display: inline-block;
     vertical-align: middle;
@@ -328,24 +347,29 @@
     vertical-align: middle;
     padding-left: 3px;
 }
-.home .toolkit-trip .grid .col .text-holder .next-trip-info h3{
+
+.home .toolkit-trip .grid .col .text-holder .next-trip-info h3 {
     margin-bottom: 10px;
 }
-.home .toolkit-trip .grid .col .text-holder .next-trip-info h3{
+
+.home .toolkit-trip .grid .col .text-holder .next-trip-info h3 {
     margin-bottom: 10px;
 }
+
 .home .toolkit-trip .grid .col .category-trip-avl-tip-inner-wrap,
-.home .deals-section .grid .col .category-trip-avl-tip-inner-wrap{
+.home .deals-section .grid .col .category-trip-avl-tip-inner-wrap {
     padding: 20px;
     margin-top: 10px;
-    border-top: 1px solid rgba(0,0,0, 0.07);
+    border-top: 1px solid rgba(0, 0, 0, 0.07);
 }
-.home .deals-section .grid .col .category-trip-avl-tip-inner-wrap{
+
+.home .deals-section .grid .col .category-trip-avl-tip-inner-wrap {
     margin-top: 0;
     padding: 20px 30px;
 }
+
 .home .toolkit-trip .grid .col .category-trip-avl-tip-inner-wrap .category-available-trip-text,
-.home .deals-section .grid .col .category-trip-avl-tip-inner-wrap .category-available-trip-text{
+.home .deals-section .grid .col .category-trip-avl-tip-inner-wrap .category-available-trip-text {
     display: block;
     font-size: 14px;
     font-weight: 500;
@@ -354,63 +378,77 @@
     margin-bottom: 10px;
     margin-top: 5px;
 }
+
 .home .toolkit-trip .grid .col .category-trip-avl-tip-inner-wrap .category-available-months,
-.home .deals-section .grid .col .category-trip-avl-tip-inner-wrap .category-available-months{
+.home .deals-section .grid .col .category-trip-avl-tip-inner-wrap .category-available-months {
     margin: 0;
     list-style: none;
     padding: 0;
 }
+
 .home .toolkit-trip .grid .col .category-trip-avl-tip-inner-wrap .category-available-months li,
-.home .deals-section .grid .col .category-trip-avl-tip-inner-wrap .category-available-months li{
+.home .deals-section .grid .col .category-trip-avl-tip-inner-wrap .category-available-months li {
     display: inline-block;
     font-size: 13px;
     font-weight: 400;
     margin: 0 3px;
 }
+
 .home .toolkit-trip .grid .col .category-trip-avl-tip-inner-wrap .category-available-months li:first-child,
-.home .deals-section .grid .col .category-trip-avl-tip-inner-wrap .category-available-months li:first-child{
+.home .deals-section .grid .col .category-trip-avl-tip-inner-wrap .category-available-months li:first-child {
     margin-left: 0;
 }
+
 .home .toolkit-trip .grid .col .category-trip-avl-tip-inner-wrap .category-available-months li:last-child,
-.home .deals-section .grid .col .category-trip-avl-tip-inner-wrap .category-available-months li:last-child{
+.home .deals-section .grid .col .category-trip-avl-tip-inner-wrap .category-available-months li:last-child {
     margin-right: 0;
 }
+
 .home .toolkit-trip .grid .col .category-trip-avl-tip-inner-wrap .category-available-months li a,
-.home .deals-section .grid .col .category-trip-avl-tip-inner-wrap .category-available-months li a{
+.home .deals-section .grid .col .category-trip-avl-tip-inner-wrap .category-available-months li a {
     color: #232323;
 }
+
 .home .toolkit-trip .grid .col .category-trip-avl-tip-inner-wrap .category-available-months li a:hover,
-.home .deals-section .grid .col .category-trip-avl-tip-inner-wrap .category-available-months li a:hover{
+.home .deals-section .grid .col .category-trip-avl-tip-inner-wrap .category-available-months li a:hover {
     text-decoration: none;
 }
+
 .home .toolkit-trip .grid .col .category-trip-avl-tip-inner-wrap .category-available-months li a.disabled,
-.home .deals-section .grid .col .category-trip-avl-tip-inner-wrap .category-available-months li a.disabled{
+.home .deals-section .grid .col .category-trip-avl-tip-inner-wrap .category-available-months li a.disabled {
     color: rgba(35, 35, 35, 0.3);
     text-decoration: line-through;
 }
+
 .home .toolkit-trip .grid .col .text-holder .btn-holder .primary-btn,
-.home .deals-section .grid .col .text-holder .btn-holder .primary-btn{
+.home .deals-section .grid .col .text-holder .btn-holder .primary-btn {
     padding: 9px 30px;
     font-size: 14px;
     font-weight: 700;
 }
-.home .deals-section .grid .col .col-holder{
+
+.home .deals-section .grid .col .col-holder {
     overflow: visible;
 }
-.home .deals-section .grid .col .text-holder{
+
+.home .deals-section .grid .col .text-holder {
     position: relative;
     overflow: hidden;
     padding-bottom: 30px;
 }
-.home .deals-section .grid .col .text-holder .trip-info{
+
+.home .deals-section .grid .col .text-holder .trip-info {
     padding-right: 50px;
 }
-.home .deals-section .grid .col .text-holder .trip-info .star-holder .review-wrap .average-rating .aggregate-rating{
+
+.home .deals-section .grid .col .text-holder .trip-info .star-holder .review-wrap .average-rating .aggregate-rating {
     margin-left: 8px;
 }
-.home .deals-section .grid .col .text-holder .next-trip-info .next-departure-list{
+
+.home .deals-section .grid .col .text-holder .next-trip-info .next-departure-list {
     font-size: 13px;
 }
+
 /*.home .deals-section .grid{
     -webkit-align-items: stretch;
     align-items: stretch;
@@ -418,3 +456,65 @@
 .home .deals-section .grid .col .col-holder{
     height: 100%;
 }*/
+
+/*rtl */
+body.rtl.home .toolkit-trip .grid .col .img-holder .discount-amount,
+body.rtl.home .deals-section .grid .col .text-holder .discount-amount,
+body.rtl.home .deals-section .grid .col .text-holder .discount-amount+.category-feat-ribbon,
+body.rtl.home .toolkit-trip .grid .col .img-holder .discount-amount+.category-feat-ribbon {
+    right: auto;
+    transform: rotate(-45deg);
+}
+
+body.rtl.home .toolkit-trip .grid .col .img-holder .discount-amount,
+body.rtl.home .deals-section .grid .col .text-holder .discount-amount {
+    left: -32px;
+}
+
+body.rtl.home .deals-section .grid .col .text-holder .discount-amount+.category-feat-ribbon,
+body.rtl.home .toolkit-trip .grid .col .img-holder .discount-amount+.category-feat-ribbon {
+    left: -47px;
+}
+
+body.rtl.home .deals-section .grid .col .group-discount,
+body.rtl.home .toolkit-trip .grid .col .group-discount {
+    left: auto;
+    right: 25px;
+}
+
+body.rtl.home .deals-section .grid .col .group-discount .tooltip,
+body.rtl.home .toolkit-trip .grid .col .group-discount .tooltip {
+    left: auto;
+    right: -10px;
+}
+
+body.rtl.home .deals-section .grid .col .group-discount .tooltip:after,
+body.rtl.home .toolkit-trip .grid .col .group-discount .tooltip:after {
+    left: auto;
+    right: 14px;
+}
+
+body.rtl.home .toolkit-trip .grid .col .text-holder .trip-info .meta-info>span,
+body.rtl.home .deals-section .grid .col .text-holder .trip-info .meta-info>span {
+    margin-right: 0;
+    margin-left: 20px;
+    display: inline-flex;
+}
+
+body.rtl.home .deals-section .grid .col .text-holder .trip-info .meta-info svg,
+body.rtl.home .toolkit-trip .grid .col .text-holder .trip-info .meta-info svg {
+    margin-right: 0;
+    margin-left: 6px;
+}
+
+body.rtl .deals-section .grid .col .text-holder .next-trip-info .next-departure-list li .left svg,
+body.rtl.home .toolkit-trip .grid .col .text-holder .next-trip-info .next-departure-list li .left svg {
+    margin-right: 0;
+    margin-left: 5px;
+}
+
+@media(min-width: 769px) {
+    body.rtl .deals-section .grid .col .text-holder .trip-info .title {
+        padding-left: 50px;
+    }
+}

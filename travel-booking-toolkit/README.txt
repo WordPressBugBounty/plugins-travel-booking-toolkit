@@ -3,9 +3,9 @@ Contributors: wptravelengine
 Donate link: https://wptravelengine.com
 Tags: tour booking, Tour Operator, travel, travel agency, Travel booking
 Requires at least: 4.4.0
-Tested up to: 6.8.2
+Tested up to: 6.9
 Requires PHP: 7.4
-Stable tag: 1.2.5
+Stable tag: 1.2.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -338,6 +338,12 @@ WP Travel Engine support for travel schema markup in JSON-LD format. This schema
 4. Activate the plugin in the Plugin dashboard
 
 == Changelog ==
+
+= 1.2.6 =
+Released on: 6th January, 2026
+
+* Compatibility Updates
+* Updated fontawesome to 6.4.2 version.
 
 = 1.2.5 =
 Released on: 31st July, 2025
