@@ -15,6 +15,21 @@ if ( ! function_exists( 'tbt_is_tbt_activated' ) ) {
     }
 }
 
+if ( ! function_exists( 'travel_booking_toolkit_get_active_theme' ) ) {
+    function travel_booking_toolkit_get_active_theme() {
+        return wp_get_theme()->get_stylesheet();
+    }
+}
+
+if ( ! function_exists( 'travel_booking_toolkit_get_supported_themes' ) ) {
+    function travel_booking_toolkit_get_supported_themes() {
+        $themes = array(
+            'travel-muni-pro',
+        );
+        return apply_filters( 'travel_booking_toolkit_supported_themes', $themes );
+    }
+}
+
 function travel_booking_toolkit_is_header_five_activated(){
     return ( get_theme_mod( 'header_layout','five' ) === 'five' ) ? true : false;        
 }

@@ -46,9 +46,14 @@ class Travel_Booking_Toolkit_Cta extends WP_Widget {
         return $array;
     }
 
-    function travel_booking_toolkit_load_cta_colorpicker() {    
-        wp_enqueue_style( 'wp-color-picker' );        
-        wp_enqueue_script( 'wp-color-picker' );    
+    function travel_booking_toolkit_load_cta_colorpicker() {
+
+        if ( in_array( travel_booking_toolkit_get_active_theme(), travel_booking_toolkit_get_supported_themes(), true ) ) {
+            return;
+        }
+
+        wp_enqueue_style( 'wp-color-picker' );
+        wp_enqueue_script( 'wp-color-picker' );
     }
 
     /**
@@ -61,7 +66,6 @@ class Travel_Booking_Toolkit_Cta extends WP_Widget {
      */
     public function widget( $args, $instance ) {
         
-        $obj              = new Travel_Booking_Toolkit_Functions();
         $title            = ! empty( $instance['title'] ) ? $instance['title'] : '' ;        
         $content          = ! empty( $instance['content'] ) ? $instance['content'] : '';
         $button_alignment = apply_filters('tbt_cta_btn_alignment','right' );

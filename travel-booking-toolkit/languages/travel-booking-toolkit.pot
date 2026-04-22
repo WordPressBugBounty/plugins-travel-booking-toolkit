@@ -2,9 +2,9 @@
 # This file is distributed under the GPL-2.0+.
 msgid ""
 msgstr ""
-"Project-Id-Version: Travel Booking Toolkit 1.2.6\n"
+"Project-Id-Version: Travel Booking Toolkit 1.2.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-06 07:48:40+00:00\n"
+"POT-Creation-Date: 2026-04-22 06:08:30+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -68,7 +68,7 @@ msgstr ""
 
 #: admin/class-travel-booking-toolkit-admin.php:123
 #: includes/widgets/widget-client-logo.php:152
-#: includes/widgets/widget-cta.php:253
+#: includes/widgets/widget-cta.php:257
 #: includes/widgets/widget-icon-text.php:142
 #: includes/widgets/widget-image-text.php:135
 msgid "Upload Image"
@@ -1535,7 +1535,7 @@ msgid "A Client Logo Widget."
 msgstr ""
 
 #: includes/widgets/widget-client-logo.php:123
-#: includes/widgets/widget-contact.php:240 includes/widgets/widget-cta.php:188
+#: includes/widgets/widget-contact.php:240 includes/widgets/widget-cta.php:192
 #: includes/widgets/widget-icon-text.php:118
 #: includes/widgets/widget-image-text.php:111
 #: includes/widgets/widget-recent-posts.php:145
@@ -1610,41 +1610,41 @@ msgstr ""
 msgid "A Call To Action Text Widget."
 msgstr ""
 
-#: includes/widgets/widget-cta.php:193
+#: includes/widgets/widget-cta.php:197
 #: includes/widgets/widget-icon-text.php:123
 #: includes/widgets/widget-image-text.php:116
 msgid "Content"
 msgstr ""
 
-#: includes/widgets/widget-cta.php:198
+#: includes/widgets/widget-cta.php:202
 msgid "Button Alignment:"
 msgstr ""
 
-#: includes/widgets/widget-cta.php:209
+#: includes/widgets/widget-cta.php:213
 msgid "Number of Call-to-Action Buttons:"
 msgstr ""
 
-#: includes/widgets/widget-cta.php:220
+#: includes/widgets/widget-cta.php:224
 msgid "Button-1 Text"
 msgstr ""
 
-#: includes/widgets/widget-cta.php:226
+#: includes/widgets/widget-cta.php:230
 msgid "Button-1 Link"
 msgstr ""
 
-#: includes/widgets/widget-cta.php:233
+#: includes/widgets/widget-cta.php:237
 msgid "Button-2 Text"
 msgstr ""
 
-#: includes/widgets/widget-cta.php:237
+#: includes/widgets/widget-cta.php:241
 msgid "Button-2 Link"
 msgstr ""
 
-#: includes/widgets/widget-cta.php:244
+#: includes/widgets/widget-cta.php:248
 msgid "Open in new Tab"
 msgstr ""
 
-#: includes/widgets/widget-cta.php:248
+#: includes/widgets/widget-cta.php:252
 msgid "Background Color"
 msgstr ""
 
